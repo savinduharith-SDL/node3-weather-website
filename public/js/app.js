@@ -15,8 +15,8 @@ weaterForm.addEventListener('submit',(e)=>{
             messageTwo.textContent = '';
         }
         else{
-            messageOne.textContent = data.forecast;
-            messageTwo.textContent = data.location;
+            messageOne.textContent = "Weather : "+data.forecast;
+            messageTwo.textContent = "Location : "+data.location;
         }
     })
 })
